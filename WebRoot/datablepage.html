@@ -93,6 +93,7 @@
 					aoData : JSON.stringify(aoData)
 				},
 				"success" : function(resp) {
+				console.log("resp="+resp.aaData);
 					fnCallback(resp);
 				}
 			});
